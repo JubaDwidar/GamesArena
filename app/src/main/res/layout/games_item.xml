@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/game_imageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_margin="10dp"
+        tools:src="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/game_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="35dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="Game Name"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_toEndOf="@id/game_imageView"
+
+        />
+
+    <TextView
+        android:id="@+id/game_rating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/game_name"
+        android:layout_marginStart="5dp"
+        android:textColor="@color/colorAccent"
+        android:text="Game Rating"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_toEndOf="@id/game_imageView"
+        />
+
+    <TextView
+        android:id="@+id/game_slug"
+        android:visibility="invisible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/game_rating"
+        android:layout_marginStart="20dp"
+        android:layout_toEndOf="@id/game_imageView"
+        />
+
+</RelativeLayout>
