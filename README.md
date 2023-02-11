@@ -1,6 +1,6 @@
 # GamesArena
 
-GamesArena is a Video Game Paltform that shows all Games based on its genre with alot of details about each game.
+GamesArena is a Video Game platform that shows all Games based on its genre with alot of details about each game.
 
 
 # Challenge description
