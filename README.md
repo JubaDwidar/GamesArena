@@ -1,6 +1,6 @@
 # GamesArena
 
-GamesArena is VideoGame Paltform that shows all Games based on its genre with alot of details about each game.
+GamesArena is a Video Game Paltform that shows all Games based on its genre with alot of details about each game.
 
 
 # Challenge description
@@ -15,7 +15,7 @@ Show movies details with the following details :-
     Movie Year.
     Movie Rate.
     Movie Background.
-    Movie Describtion.
+    Movie Description.
     Movie Trailer (if any).
 
 # Preview
@@ -36,7 +36,7 @@ https://user-images.githubusercontent.com/31703159/143766926-55600888-dd3c-4350-
    
 # Implementation
 
-    In this project I'm using MVVM Kotlin as an application architecture adopted from the architecture blueprints sample with these design patterns in mind:-
+    In this project I'm using MVVM as an application architecture adopted from the architecture blueprints sample with these design patterns in mind:-
 
     Repository Pattern
     Facade Pattern
@@ -50,6 +50,6 @@ https://user-images.githubusercontent.com/31703159/143766926-55600888-dd3c-4350-
 
     Using Room for caching movies.
 
-    Using Pagination Library to smooth the load of data in the inital and search state.
+    Using Pagination Library to smooth the load of data in the initial and search state.
 
-    Using Glode for great animation in loading Images and empty state design.
+    Using Glide for great animation in loading Images and empty state design.
